@@ -1,0 +1,11 @@
+# filebox.yml - FileBox 配置文件
+server:
+  port: 9090  # 监听端口，默认8080
+
+storage:
+  files_root: ""  # 上传/下载根目录，留空则使用 {executable_path}/../files/
+  page_dir: ""    # 前端页面目录，留空则使用 {executable_path}/../page/
+
+upload:
+  max_memory: 10M  # 解析multipart表单时使用的最大内存，默认10M
+  max_file_size: 800M  # 上传文件总大小限制，0表示不限制

@@ -25,4 +25,10 @@ target/
 *.grpc.pb.cc
 *.grpc.pb.h
 
+# project filebox
+filebox/bin/
+filebox/files/
+
+
+
 
